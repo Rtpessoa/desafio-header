@@ -49,8 +49,10 @@
 
 }
 
-.texto_cabecalho li:last-child ::after {
-    content: url('https://ice.org.br/wp-content/themes/novo-thema/img/glass.png') ;
+.lupa::after {
+
+    content: url("https://ice.org.br/wp-content/themes/novo-thema/img/glass.png");
+   
 }
 
 .texto_cabecalho li {
@@ -60,5 +62,12 @@
 .texto_cabecalho li:hover {
     cursor: pointer;
     color: #299187;
+}
+
+.pesquisa {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #FFFFFF;
+    
 }
 
